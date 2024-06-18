@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Engoo">
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <title>Darcy English House</title>
+
+  <style>
+    .header {
+      height: 80px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color:rgb(9, 132, 167);
+
+    }
+
+    .body {
+      padding-bottom: 1000px;
+      background-color:rgb(9, 132, 167);
+  
+    }
+
+    .darcy-logo {
+      cursor: pointer;
+      height: 90px;
+      width: 240px;
+      margin-left: 50px;
+      margin-top: 10px;
+      align-items: center;
+      border-radius: 10px;
+    }
+
+    .hamburger-menu {
+      height: 36px;
+      cursor: pointer;
+      align-items: center;
+    }
+
+    .register-button, .materials-button, .our-tutors-button, .blog-button, .plans-and-prices-button, .contact-us-button, .faq-button, .login-button {
+      background-color: rgb(9, 132, 167);
+      color: rgb(255, 255, 255);
+      height: 30px;
+      border-radius: 5px;
+      font-size: 14px;
+      font-weight: 500;
+      cursor: pointer;
+      width: 200px;
+      position: fixed;
+    }
+
+    .register-button:hover, .materials-button:hover, .our-tutors-button:hover, .blog-button:hover, .plans-and-prices-button:hover, .contact-us-button:hover, .faq-button:hover, .login-button:hover {
+      background-color: rgb(100, 132, 167);
+    }
+
+    .title {
+      font-size: 64px;
+      margin-top: 10px;
+      margin-bottom: 20px;
+      display: flex;
+      flex-direction: column;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      color: rgb(9, 132, 167);
+      width: 700px;
+      justify-content: center;
+      margin-left: 150px;
+      text-decoration: wavy;
+    }
+
+    .right-container {
+      display: flex;
+      flex-direction: column;
+      margin-top: auto;
+    }
+
+    .sidebar {
+      position: fixed;
+      width: 120px;
+      top: 100px;
+      bottom: 0;
+      left: 0;
+      background-color: white;
+      z-index: 200;
+      padding-top: 10px;
+      justify-content: center;
+      align-items: center;
+      font-family: Roboto, Arial;
+    }
+
+    .sidebar-link {
+      background-color: rgb(170, 228, 235);
+      height: 76px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .sidebar-link:hover {
+      background-color: rgb(170, 228, 235);
+    }
+
+    .image-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .image1, .image2 {
+      margin: 20px 0;
+    }
+
+    .image1 img, .image2 img {
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+<body class="body">
+  <div class="header">
+    <div class="left-section">
+      <img class="hamburger-menu" src="Images/hamburger-menu.svg">
+      <img class="darcy-logo" src="Images/darcylogonew.jpg" alt="darcy-logo">
+    </div>
+  </div>
+
+
+  <div class="sidebar">
+    <div class="sidebar-link">Home</div>
+    <div class="sidebar-link">Debate Class</div>
+    <div class="sidebar-link">English Class</div>
+    <div class="sidebar-link">Our Tutors</div>
+    <div class="sidebar-link">Blog</div>
+    <div class="sidebar-link">Library</div>
+  </div>
+
+  <div class="image-container">
+    <div class="image1">
+      <img src="Images/asian-child-studying-home_296537-4212.avif" alt="asian-child-studying-home">
+    </div>
+    <div class="image2">
+      <img src="Images/asian-girls-participating-debate-competition-honing-their-public-speaking_288945-2336.avif" alt="asian-girls-participating-debate-competition-honing-their-public-speaking">
+    </div>
+  </div>
+</body>
+</html>

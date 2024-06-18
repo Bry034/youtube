@@ -1,0 +1,103 @@
+
+
+.header {
+height: 80px;
+display: flex;
+align-items:center;
+justify-content: space-between;
+background-color: #ffffff;
+}
+
+.body {
+
+  padding-bottom: 1000px;
+}
+
+.darcy-logo {
+  cursor: pointer;
+ height: 70px;
+  width: 150px;
+  margin-left: 50px;
+align-items: center;}
+
+.hamburger-menu {
+height: 36px;
+  cursor: pointer;
+align-items: center;}
+
+.register-button, .materials-button, .our-tutors-button, .blog-button, .plans-and-prices-button, .contact-us-button, .faq-button, .login-button, .register-button 
+{
+ background-color:rgb(9, 132, 167);
+  color: rgb(255, 255, 255);
+  height: 30px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+width: 200px;
+position: fixed;}
+
+.register-button:hover, .materials-button:hover, .our-tutors-button:hover, .blog-button:hover, .plans-and-prices-button:hover, .contact-us-button:hover, .faq-button:hover, .login-button:hover
+ {
+  background-color: rgb(100, 132, 167);
+  cursor: pointer;}
+
+.title {
+font-size: 64px;
+margin-top: 10px;
+margin-bottom: 20px;
+align-items: center;
+display: flex;
+flex-direction: column;
+position: relative;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color: rgb(9, 132, 167);
+width: 700px;
+align-items: center;
+justify-content: center;
+margin-left: 150px;
+text-decoration: wavy;
+}
+
+.right-container {
+
+  display: flex;
+  flex-direction: column;
+  margin-top: auto;
+}
+
+.sidebar {
+  position: fixed;
+  width: 120px;
+  top: 100px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  z-index: 200;
+  padding-top: 10px;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  font-family: Roboto, Arial;
+  }
+  .sidebar-link {
+
+    background-color: rgb(255, 255, 255);
+    height: 76px;
+    display: flex;
+    justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    
+    .sidebar-link:hover {
+    
+      background-color: rgb(170, 228, 235);
+      cursor: pointer;
+    }
+
+
+    .image-container {
+
+
+    }
